@@ -17,6 +17,7 @@ resource "aws_iam_user" "Cadama19" {
     tag = {
         wife = "aminata"
         son = "kader"
+        mother = "binta"
     }
    force_destroy = true 
 }
